@@ -1,0 +1,37 @@
+.title_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 5px 10px;
+  
+}
+.date_box{
+    display: flex;
+}
+
+table {
+	border-radius: 10px;
+	border-collapse: collapse;
+	overflow: hidden;
+	width: 100%;
+}
+
+td,
+th {
+	border: 2px solid rgba(55, 71, 79, 255);
+	text-align: center;
+	padding: 8px;
+	font-size: small;
+}
+
+th {
+	background-color: rgba(55, 71, 79, 255);
+	color: #fff;
+}
+
+td > img {
+	width: 50px;
+	height: 45px;
+}
+.userTable{
+    padding: 5px 10px 5px 10px;
+}

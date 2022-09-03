@@ -1,0 +1,43 @@
+.form_container{
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: antiquewhite;
+	border:none;
+    padding:20px;
+    width: 40vw;
+
+}
+
+.form_box>form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+   align-items: center;
+}
+.form_box>form>label{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    /* flex-direction: column; */
+    gap: 15px;
+}
+.time_box{
+    width: 80%;
+    display: flex;
+    gap: 10%;
+    
+}
+.time_box>input{
+    width: 45%;
+}
+.form_box>form>label>input{
+    width: 80%;
+}
+.form_box>form>label>span{
+    width: 20%;
+}
